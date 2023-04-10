@@ -1,0 +1,12 @@
+{
+  "name": "ChatGPT Detector",
+  "description": "ChatGPT Detector from anywhere on the web.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+
+  "host_permissions": ["https://api.chatgptdetectorapi.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128_backup.png"
+  }
+}
